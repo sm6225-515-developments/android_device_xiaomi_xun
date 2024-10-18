@@ -16,4 +16,10 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := 23073RPBFG
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="xun_global-user 14 UKQ1.231003.002 V816.0.2.0.UMUMIXM release-keys" \
+    BuildFingerprint=Redmi/xun_global/xun:14/UKQ1.231003.002/V816.0.2.0.UMUMIXM:user/release-keys \
+    DeviceProduct=xun \
+    SystemName=xun_global
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
