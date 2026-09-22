@@ -11,3 +11,6 @@ include device/xiaomi/sm6225-common/BoardConfigCommon.mk
 include vendor/xiaomi/xun/BoardConfigVendor.mk
 
 DEVICE_PATH := device/xiaomi/xun
+
+# Inherit Proprietary Vendor
+$(call inherit-product, vendor/xiaomi/xun/xun-vendor.mk)
